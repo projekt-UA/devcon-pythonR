@@ -1,7 +1,7 @@
 name: Docker Image CI
 on: [push]
 env:
-  IMAGE_NAME: scrapeua-devcon
+  IMAGE_NAME: aslemen/scrapeua-devcon
 jobs:
   build:
     runs-on: ubuntu-latest
