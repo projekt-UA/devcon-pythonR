@@ -23,4 +23,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: ${{ github.ref }}:${{ steps.date.outputs.date }}
+          tags: ${{ env.IMAGE_NAME }}:${{ github.ref_name }}-${{ steps.date.outputs.date }}
