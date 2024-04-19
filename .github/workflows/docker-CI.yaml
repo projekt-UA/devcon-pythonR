@@ -1,7 +1,7 @@
 name: Docker Image CI
 on: [push]
 env:
-  IMAGE_NAME: ${{ github.repository }}
+  IMAGE_NAME: scrapeua-devcon
 jobs:
   build:
     runs-on: ubuntu-latest
