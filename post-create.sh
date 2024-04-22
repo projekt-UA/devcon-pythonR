@@ -22,6 +22,7 @@ poetry env use /usr/local/bin/python
 source $(poetry env info --path)/bin/activate
 poetry install
 python -m spacy download de_dep_news_trf
+python -m spacy download ja_core_news_sm
 
 # ------
 echo "${MESSAGE_PREFIX} installing IRkernel" 1>&2
