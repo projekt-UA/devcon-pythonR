@@ -10,7 +10,9 @@ pkgs <- c(
     "arrow",
     "stopwords",
     "quanteda",
-    "LSX"
+    "LSX",
+    "lubridate",
+    "rmakrdown"
 )
 install.packages(pkgs)
 remotes::install_github("quanteda/quanteda.sentiment")
