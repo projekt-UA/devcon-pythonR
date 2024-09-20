@@ -1,5 +1,5 @@
 name: Docker Image CI
-on: [push]
+on: [push, workflow_dispatch]
 env:
   IMAGE_NAME: aslemen/scrapeua-devcon
 jobs:
