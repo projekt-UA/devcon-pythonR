@@ -12,7 +12,7 @@ pkgs <- c(
     "quanteda",
     "LSX",
     "lubridate",
-    "rmakrdown"
+    "rmarkdown"
 )
 install.packages(pkgs, repos = "https://ftp.yz.yamagata-u.ac.jp/pub/cran/")
 remotes::install_github("quanteda/quanteda.sentiment")
