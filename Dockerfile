@@ -15,7 +15,8 @@ RUN apt update \
 	less \
 	vim \
 	ca-certificates \
-	pandoc
+	pandoc \
+	gsfonts-x11 xfonts-base xfonts-scalable xfonts-100dpi xfonts-75dpi
 
 # http://bugs.python.org/issue19846
 # > At the moment, setting "LANG=C" on a Linux system *fundamentally breaks Python 3*, and that's not OK.
